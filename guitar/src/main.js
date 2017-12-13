@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
+Vue.http.options.emulateJSON = true;
+Vue.http.options.emulateHTTP = true;
 
 /* eslint-disable no-new */
 new Vue({
